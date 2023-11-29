@@ -10,7 +10,7 @@ URL: `https://interview-api.flexbase.workers.dev` \
 Returns a list of user profiles: `GET /users` \
 Edit user info (email and name): `PATCH /users/:id`
 
-# Snack app details
+## User model
 
 ```
 type User = {
