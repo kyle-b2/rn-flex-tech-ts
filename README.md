@@ -14,7 +14,7 @@ Edit user info (email and name): `PATCH /users/:id`
 
 ```
 type User = {
-  id: string;
+  id: number;
   name: string;
   roles: string[];
   email: string;
