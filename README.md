@@ -2,8 +2,7 @@
 
 1. Create a card component to display some information about a user, including id, email, name, and roles
 2. Fetch a list of users from the API and display them in a list of cards
-3. Add an Edit button to the cards, which will switch the card into an "Edit State" that allows users to update the email, name, and roles. This "Edit State" will have Save and Cancel buttons to either save the data to the API or cancel the edit action.
-4. Add a button to the cards that says "Select User". Create a header that says "<User> has been selected", where user corresponds to the id of a user card that has been "selected" with the button. This functionality has no impact to the edit functionality.
+3. Add functionality to edit a user. You should be able to tap a user card and switch to an edit view for that user. It should have a back button to go back to the list view, and should inputs to update name and email and shows the user's roles. It should have save and cancel that buttons. Saving should update the user in the API and upon success, switch back to the list view and update the list.
 
 API endpoints:
 URL: `https://interview-api.flexbase.workers.dev` \
